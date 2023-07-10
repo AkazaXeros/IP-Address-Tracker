@@ -25,23 +25,25 @@
 			<!-- I'll include 2 divs. 1 for the search field and another to contain the info. We'll make it more semantic later -->
 			<section id="bubbles">
 				<nav id="searchBubble">
-					<input type="text" placeholder="192.212.174.101" /><i
-						id="searchBtn"
-					></i>
+					<input
+						id="searchInput"
+						type="text"
+						placeholder="Search for any IP address"
+					/><button id="searchBtn"></button>
 				</nav>
 				<div class="accordionBubble">
 					<ul>
 						<li>
 							<p class="accordion_description_texts">IP ADDRESS</p>
-							<p class="info_obtained">192.212.174.101</p>
+							<p class="info_obtained ip"></p>
 						</li>
 						<li>
 							<p class="accordion_description_texts">LOCATION</p>
-							<p class="info_obtained">Brooklyn, NY 10001</p>
+							<p class="info_obtained location"></p>
 						</li>
 						<li>
 							<p class="accordion_description_texts">TIMEZONE</p>
-							<p class="info_obtained">UTC-05:00</p>
+							<p class="info_obtained timezone"></p>
 						</li>
 					</ul>
 				</div>
